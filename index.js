@@ -10,9 +10,9 @@
   function moveDodgerRight() {
     const leftNumbers = dodger.style.left.replace("px", "");
     const left = parseInt(leftNumbers, 10);
-    2. Git commit -m"complete lab"
-
+  
     if (left > 0) {
       dodger.style.left = `${left + 1}px`;
     }
   }
+
